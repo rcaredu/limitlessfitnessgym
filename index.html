@@ -7,15 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Robert Caran">
     <meta name="description"
-      content="Limitless Fitness offers personalized training, dynamic classes, and flexible memberships to help you build strength and reach your goals in Mesa, AZ."">
-    <meta name=" keywords"
+      content="Limitless Fitness offers personalized training, dynamic classes, and flexible memberships to help you build strength and reach your goals in Mesa, AZ.">
+    <meta name="keywords"
       content="gym, fitness center, personal training, group fitness classes, HIIT, yoga, strength training, membership, Mesa AZ gym">
     <meta name="robots" content="index, follow">
     <title>Limitless Fitness</title>
 
     <!-- open graph/social media tags -->
+    <meta property="og:title" content="Limitless Fitness">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rcaredu.github.io/limitlessfitnessgym/images/facility">
+    <meta property="og:url" content="https://rcaredu.github.io/limitlessfitnessgym">
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@limitlessfitnessgym">
+    <meta name="twitter:image" content="https://rcaredu.github.io/limitlessfitnessgym/images/facility.jpg">
     <meta name="twitter:creator" content="@rcaran">
     <meta name="twitter:title" content="Join a community dedicated to your fitness journey.">
     <meta name="twitter:description"
@@ -100,7 +106,6 @@
         <!-- add responsive images for resolution switching -->
         <img src="images/dumbells.jpg" srcset="images/dumbells-320w.jpg 320w, images/dumbells-768w.jpg 768w" sizes="(max-width: 320px) 100vw, 
       (max-width: 768px) 100vw, 100vw" alt="dumbells on a rack in a gym facility">
-        src="images/dumbells.jpg"
 
       </section>
       <section>
@@ -133,11 +138,10 @@
               <option value="family-group">Family & Group Plans</option>
             </select>
 
+            <label for="fitness-goals">Tell us about your fitness goals:</label>
+            <textarea name="fitness_goals" id="fitness-goals"></textarea>
 
-            <label>Tell us about your fitness goals:</label>
-            <textarea name="" id=""></textarea>
-
-            Submit
+            <button type="submit">Submit</button>
           </form>
         </section>
       </section>
@@ -157,30 +161,36 @@
         <h2>Stay connected</h2>
         <ul>
           <li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#007BFF" width="35" height="35">
-              <path
-                d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z">
-              </path>
-            </svg>
+            <a href="https://facebook.com/limitlessfitnessgym" aria-label="Follow us on Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#007BFF" width="35" height="35">
+                <path
+                  d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z">
+                </path>
+              </svg>
+            </a>
           </li>
           <li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF"
-              stroke-linecap="round" stroke-linejoin="round" width="35" height="35" stroke-width="1">
-              <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-            </svg>
+            <a href="https://x.com/limitlessfitnessgym" aria-label="Follow us on X">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF"
+                stroke-linecap="round" stroke-linejoin="round" width="35" height="35" stroke-width="1">
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+              </svg>
+            </a>
           </li>
           <li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#007BFF" width="35" height="35">
-              <path
-                d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z">
-              </path>
-            </svg>
+            <a href="https://youtube.com/@limitlessfitnessgym" aria-label="Subscribe on Youtube">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#007BFF" width="35" height="35">
+                <path
+                  d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z">
+                </path>
+              </svg>
+            </a>
           </li>
         </ul>
       </section>
       <section>
-        Contact Us
+        <h2>Contact Us</h2>
         <address>
           <p>1234 HIIT St. <br>
             Mesa, AZ 85222 <br>
